@@ -1,0 +1,63 @@
+{
+  "_format": "hh3-artifact-1",
+  "contractName": "IGovernanceRootPublisher",
+  "sourceName": "contracts/GovernanceExecutor.sol",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "proposalId",
+          "type": "uint256"
+        }
+      ],
+      "name": "getProposalCore",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "proposer",
+          "type": "address"
+        },
+        {
+          "internalType": "bytes32",
+          "name": "actionDataHash",
+          "type": "bytes32"
+        },
+        {
+          "internalType": "uint256",
+          "name": "snapshotBlock",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "ER_snapshot",
+          "type": "uint256"
+        },
+        {
+          "internalType": "bytes32",
+          "name": "powerRoot",
+          "type": "bytes32"
+        },
+        {
+          "internalType": "string",
+          "name": "metadata",
+          "type": "string"
+        },
+        {
+          "internalType": "uint256",
+          "name": "createdAt",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "linkReferences": {},
+  "deployedLinkReferences": {},
+  "immutableReferences": {},
+  "inputSourceName": "project/contracts/GovernanceExecutor.sol",
+  "buildInfoId": "solc-0_8_28-88905df3f8e07b92ca7c6c093b89d9af3b3b0c73"
+}
